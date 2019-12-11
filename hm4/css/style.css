@@ -1,0 +1,246 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+body{
+    font-family: Open+Sans; 
+    color: rgb(85, 82, 82);
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0;
+}
+.header{
+    width: 1110px;
+    height: 66px;
+    margin-bottom: 0 auto;
+  }
+.logotip{
+    font-size: 30px;
+    line-height: 32px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    float: left;
+    color: rgb(26, 188, 156);
+
+  }
+.logotip a::first-letter{
+    text-transform: capitalize;
+    color: #1abc9c;
+  }
+.logotip a{
+    text-decoration-line: none;
+    color: #555252;
+    display: inline-block;
+  }
+.nav-site{
+    display: block;
+    text-align: center;
+    height: 75px;
+  }
+.nav{
+    height: 20px;
+    margin-bottom: 25px;
+  }
+.nav a{
+    font-size: 10px;
+    line-height: 11px;
+    display: inline;
+    margin: 18px 18px;
+}
+.nav{
+    float: right;
+}
+.menu{
+    list-style: none;
+    display: inline-block;
+}
+.menu-name{
+    font-family: "Open+Sans";
+    color: #0f0101;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+  h1{
+    float: left;
+  }
+ .menu-name{
+    float: right;
+}
+ main{
+     width: 1110px;
+     margin-bottom: 0 auto;
+     padding: 0;
+ }
+.title{
+    width: 1110px;
+    height: 125px;
+    text-align: center;
+    margin-bottom: 92px;
+}
+h2{
+    font-family: "Roboto", black;
+    font-size: 48px;
+    line-height: 32px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+.title{
+    display: block;
+    margin: 50px auto;
+    padding: auto;
+}
+.cart{
+    width: 255px;
+    height: 322px;
+    float: left;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.2);
+    margin: 30px 30px 30px 30px;
+    }
+.cart-img-wrp{
+    overflow: hidden;
+    height: 283px;
+    line-height: 283px;
+    text-align: center;
+}
+.cart-img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.cart-text-wrp{
+    height: calc(322px - 283px);
+    line-height: calc(322px - 283px);
+    background: #323232;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+.cart-title{
+    padding-left: 14px;
+}
+.cart-price{
+    float: right;
+    background: #8c8c8c;
+    padding: 0 12px;
+    transition-duration: 0.3s;
+}
+.cart:hover {
+    background: #1abc9c;
+}
+.cart-text-wrp:hover{
+    background: #1abc9c;
+}
+.cart:hover{
+    background: #7fd97f;
+}
+.cart-price:hover{
+    background: #7fd97f;
+}
+.footer-container{
+    width: 1140px;
+    margin-bottom: 0;
+}
+.clearfix::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.footer-container{
+    width: 1140px;
+    margin-bottom: 0 auto;
+}
+footer{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+h3{
+    font-family: "Roboto", black;
+    font-size: 48px;
+    line-height: 32px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+.hidden{
+    height: 10px;
+}
+.hidden::after {
+    content: "";
+    float: left;
+    background: #1abc9c;
+    width: 160px;
+    height: 9px;
+    margin-left: 475px;
+  }
+.line--news {
+    display: inline-block;
+    text-align: center;
+    margin-left: 490px;
+  }
+.blog--name {
+    height: 100px;
+  }
+.blog--news {
+    float: left;
+    width: 350px;
+    margin-bottom: 74px;
+    background: #fff;
+    cursor: pointer;
+  }
+.blog--news:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
+h4::after {
+    content: "";
+    background: #1abc9c;
+    width: 140px;
+    height: 6px;
+    margin-top: 18px;
+  }
+h4 {
+    font-family: "Open+Sans";
+    font-size: 18px;
+    line-height: 26px;
+  }
+p {
+    font-family: "Open+Sans";
+    font-size: 14px;
+    line-height: 26px;
+    padding-top: 30px;
+  }
+a:hover{
+    color: #4ec6ab;
+}
+a:focus {
+    color: #4ec6ab;
+  }
+  
+button {
+    width: 160px;
+    height: 52px;
+    color: white;
+    background: #4ec6ab;
+  }
+  
+.btn-load-more:hover,
+.btn-load-more:focus {
+    display: inline-block;
+    font-family: "Open+Sans";
+    font-size: 16px;
+    line-height: 26px;
+    background: #4ec6ab;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
