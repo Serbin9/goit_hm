@@ -1,0 +1,144 @@
+body {
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0px;
+  }
+  
+  header {
+    padding-top: 75px;
+    padding-bottom: 100px;
+  }
+  
+  .container {
+    width: 900px;
+    margin-bottom: 0 auto;
+  }
+  
+  .main-section {
+    padding-bottom: 60px;
+    font-size: 0;
+    text-align: center;
+  }
+  .navigation{
+    text-decoration: none;
+  }
+  .navigation {
+    font-family: "Playfair+Display";
+    font-size: 14px;
+    line-height: 24px; 
+    font-size: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  .list_item {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .list_item a {
+    display: block;
+    list-style: none;
+  }
+  
+  .list_item, .article_content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .list_item:not(:last-child) {
+    margin-right: 87px;
+  }
+  
+  .list_item a:hover,
+  .list_item a:focus {
+    color: #03a9f4;
+  }
+  
+  .article {
+    vertical-align: top;
+    width: 420px;
+    display: inline-block;
+    text-align: justify;
+    margin-bottom: 60px;
+  }
+  
+  .article:nth-child(odd) {
+    margin-right: 60px;
+  }
+  
+  .article:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+  .article_content{
+    font-family: "Playfair+Display";
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+    font-weight: 420px;
+    margin-bottom: 0;
+  }
+  .artical-title{
+    font-family: "Playfair+Display";
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(98, 98, 98);
+    margin-bottom: 0;
+  }
+  
+  .article_hdr {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 420;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: 0%
+  }
+  .navigation a{
+    font-weight: 420px;
+    color: rgb(98, 98, 98);
+  }
+  
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .navigation, h2, .article_content {
+    color: #626262;
+  }
+  
+  img {
+    height: 280px;
+    margin-bottom: 30px;
+    display: block;
+    width: 420px;
+  }
+  
+  .btn {
+    padding: 22px 34px;
+    background-color: #fff;
+    color: #626262;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #626262;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    cursor: pointer;
+    color: #03a9f4;
+    border: 1px solid #03a9f4;
+  }
+  
