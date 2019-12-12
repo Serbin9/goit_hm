@@ -13,7 +13,6 @@ body {
   
   .container {
     width: 900px;
-    margin-bottom: 0 auto;
   }
   
   .main-section {
@@ -38,32 +37,26 @@ body {
   a{
     text-decoration: none;
   }
-  
   .list_item {
     display: inline-block;
     list-style: none;
     text-decoration: none;
   }
-  
   .list_item a {
     display: block;
     list-style: none;
   }
-  
   .list_item, .article_content {
     font-size: 14px;
     line-height: 24px;
   }
-  
   .list_item:not(:last-child) {
     margin-right: 87px;
   }
-  
   .list_item a:hover,
   .list_item a:focus {
     color: #03a9f4;
   }
-  
   .article {
     vertical-align: top;
     width: 420px;
@@ -71,11 +64,9 @@ body {
     text-align: justify;
     margin-bottom: 60px;
   }
-  
   .article:nth-child(odd) {
     margin-right: 60px;
   }
-  
   .article:nth-last-child(-n+2) {
     margin-bottom: 0;
   }
