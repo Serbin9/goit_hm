@@ -12,7 +12,7 @@
   *::after {
     box-sizing: inherit;
   }
-  .conteiner:{
+  .container:{
       width: 1170px;
       margin: 0;
   }
@@ -62,24 +62,32 @@ h1{
     color: #1abc9c;
   }
   .pictures li{
-      display: inline-block;
-      width: 255px;
-      height: 322px;
-      list-style-type: none;
-      margin-right: 50px;
-      margin-bottom: 30px;
-  }
-  .pictures li:nth-child(4n) {
-    margin-right: 0;
-  }
-  .pictures li{
       float: left;
       vertical-align: 100px;
   }
   h2{
     display: inline-block;
+    width: 1170px;
     vertical-align: 30;
     text-transform: uppercase;
     text-align: center;
-    
   }
+  }
+  .pictures li{
+      float: left;
+  }
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .pictures li{
+    margin: 0;
+  }
+  .pictures li:nth-child(4n) {
+    margin-right: 30px;}
+  }
+  li{
+    margin-bottom: 30px;
+  }
+
