@@ -25,7 +25,7 @@ h1{
        float: left;
   }
   .clearfix::after{
-      content: """;
+      content: "";
       display: table;
       clear: both;
   }
@@ -74,4 +74,12 @@ h1{
   }
   .pictures li{
       float: left;
+      vertical-align: 100px;
+  }
+  h2{
+    display: inline-block;
+    vertical-align: 30;
+    text-transform: uppercase;
+    text-align: center;
+    
   }
