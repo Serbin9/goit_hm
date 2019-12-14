@@ -76,6 +76,7 @@ body {
     font-size: 14px;
     color: rgb(98, 98, 98);
     font-weight: 420px;
+    margin: 0px;
     margin-bottom: 0;
   }
   .artical-title{
@@ -83,7 +84,8 @@ body {
     font-size: 30px;
     line-height: 0px;
     color: rgb(98, 98, 98);
-    margin-bottom: 0;
+    margin: 0px;
+    margin-bottom: 37px;
   }
   
   .article_hdr {
@@ -93,7 +95,8 @@ body {
     line-height: 0px;
     text-transform: uppercase;
     color: #b4ad9e;
-    margin: 0%
+    margin: 0px;
+    margin-bottom: 35px;
   }
   .navigation a{
     font-weight: 420px;
@@ -103,6 +106,7 @@ body {
   h2 {
     font-size: 30px;
     line-height: 36px;
+    margin: 0px;
     margin-bottom: 30px;
   }
   
@@ -112,6 +116,7 @@ body {
   
   img {
     height: 280px;
+    margin: 0px;
     margin-bottom: 30px;
     display: block;
     width: 420px;
