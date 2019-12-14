@@ -13,8 +13,8 @@
     box-sizing: inherit;
   }
   
-  .container {
-    width: 1170px;
+  .conteiner {
+    width: 1110px;
     margin: 0 auto;
   }
   
@@ -40,9 +40,7 @@
     font-weight: 300;
     color: #515151;
     font-size: 22px;
-    padding-top: 38px;
-    padding-bottom: 104px;
-  }
+      }
   
   .navigation {
     list-style: none;
@@ -50,13 +48,16 @@
     margin: 0;
   }
   
-  .navigation li {
-    float: left;
-    margin-left: 30px;
-    padding-top: 42px;
-    padding-bottom: 110px;
   }
-  
+  .clearfix{
+    text-align: center;
+  }
+  header{
+    padding-bottom: 100px;
+    padding-top: 32px;
+    text-align: center;
+    width: 1110px;
+      }
   .navigation a {
     text-transform: uppercase;
     font-weight: bold;
@@ -75,12 +76,12 @@
     width: 255px;
     height: 322px;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 0px;
     margin-bottom: 30px;
   }
   
   .pictures li:nth-child(4n) {
-    margin-right: 0;
+    margin-right: 30px;
   }
   
   .pictures li {
@@ -130,18 +131,19 @@
     margin-bottom: -4px;
   }
   
-  .pictures li:nth-child(-n + 4) {
-    margin-top: 92px;
+  .pictures li:nth-child(n +4) {
+    margin-bottom: 30px;
   }
-  
-  .pictures li:nth-child(n + 5) {
-    margin-bottom: 106px;
+
+  .pictures li:nth-child(4n+4){
+    margin-right: 0px;
+    margin-bottom: 30px;
   }
   
   .text {
     display: inline-block;
     text-align: center;
-    width: 1170px;
+    width: 1110px;
     text-transform: uppercase;
     font-family: "Roboto Black", sans-serif;
     font-weight: bold;
@@ -169,7 +171,7 @@
     width: 350px;
     height: 262px;
     list-style-type: none;
-    margin-right: 60px;
+    margin-right: 30px;
     margin-top: 82px;
   }
   
@@ -236,4 +238,52 @@
     font-weight: 300;
     color: white;
     margin-bottom: 15px;
+  }
+  button a{
+    text-decoration: none;
+    font-weight: 500;
+    list-style: none;
+    color: white;
+  }
+  button a:hover{
+    color: red;
+  }
+  .news{
+    margin: 0px;
+  }
+  .pictures li{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 30px;
+    float: left;
+  }
+  .pictures li:nth-child(n+5){
+    margin-bottom: 100px;
+  }
+  .navigation li{
+    margin-right: 30px;
+    float: left;
+  }
+  .navigation li:nth-child(n+6){
+    margin-right: 0px;
+  }
+  .text1 {
+    display: inline-block;
+    text-align: center;
+    width: 1110px;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-weight: bold;
+    color: #515151;
+    font-size: 34px;
+    margin-bottom: 120px;
+  }
+  
+  .text1::after {
+    display: block;
+    content: "";
+    background-color: #1abc9c;
+    width: 164px;
+    height: 6px;
+    margin: 20px auto 0;
   }
