@@ -12,21 +12,39 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
+.navigation li{
+  float: left;
+}
 .container {
   width: 1110px;
   margin: 0 auto;
 }
 
-h1::first-letter {
+.logos::first-letter{
   color: #1abc9c;
-  font-family: "Roboto Black", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
+  
+}
+.naw{
+  font-size: 0px;
+  padding-top: 36px;
+  padding-bottom: 104px;
+}
+.navigation{
+  float: right;
+  margin-top: 0;
+}
+.logos{
+  float: left;
+  color: #555252;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300px;
+  font-size: 30px;
 }
 
-h1 {
-  float: left;
-}
 
 .clearfix::after {
   content: "";
@@ -64,24 +82,18 @@ header{
   text-decoration: none;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation a:focus {
   color: #1abc9c;
 }
-
 .pictures li {
-  display: inline-block;
-  width: 255px;
-  height: 322px;
+  display: block;
+  height: auto;
+  width: 255;
   list-style-type: none;
   margin-right: 0;
   margin-bottom: 30px;
 }
-
-.pictures li:nth-child(4n) {
-  margin-bottom: 0;
-  margin-right: 30px;
-}
-
 .pictures li {
   float: left;
 }
@@ -100,7 +112,6 @@ header{
 }
 
 .price {
-  display: inline-block;
   background-color: #8c8c8c;
   width: 55px;
   height: 40px;
@@ -139,11 +150,14 @@ img {
   text-align: center;
   width: 1110px;
   text-transform: uppercase;
-  font-family: "Roboto Black", sans-serif;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   color: #515151;
   font-size: 34px;
-  margin-bottom: 32px;
+  margin-bottom: 18px;
+}
+li .news2{
+  margin-bottom: 18px;
 }
 
 .text::after {
@@ -215,6 +229,7 @@ p {
   font-size: 14px;
   color: #6c6969;
   line-height: 26px;
+  letter-spacing: -0,28px;
 }
 .news{
   margin: 0;
@@ -245,7 +260,7 @@ p {
   font-weight: bold;
   color: #515151;
   font-size: 34px;
-  margin-bottom: 120px;
+  margin-bottom: 92px;
 }
 
 .text1::after {
@@ -281,4 +296,14 @@ p {
 }
 .new p{
   text-align: justify;
+}
+.newsli img{
+  margin-bottom: 18px;
+}
+.news h3{
+  float: left;
+  width: 350px;
+}
+.ppp{
+  margin-bottom: 18px;
 }
