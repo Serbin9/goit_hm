@@ -47,10 +47,8 @@ h1 {
   float: right;
   margin: 0;
 }
-}
-.clearfix{
-  text-align: center;
-}
+
+
 header{
   padding-bottom: 100px;
   padding-top: 32px;
@@ -96,8 +94,7 @@ header{
   text-align: center;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-weight: black;
-  color: white;
+    color: white;
   text-decoration: none;
   line-height: 40px;
 }
@@ -111,7 +108,6 @@ header{
   float: right;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-weight: black;
   font-weight: bold;
   color: white;
   text-decoration: none;
@@ -196,7 +192,6 @@ h2 {
 h3 {
 
   margin-bottom: 30px;
-  font-weight: bold;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold 600;
@@ -284,4 +279,6 @@ p {
 .pictures{
   padding-bottom: 100px;
 }
+.new p{
+  text-align: justify;
 }
