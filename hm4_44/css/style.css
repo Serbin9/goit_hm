@@ -47,7 +47,6 @@ h1 {
   float: right;
   margin: 0;
 }
-
 }
 .clearfix{
   text-align: center;
@@ -76,12 +75,12 @@ header{
   width: 255px;
   height: 322px;
   list-style-type: none;
-  margin-right: 0px;
+  margin-right: 0;
   margin-bottom: 30px;
 }
 
 .pictures li:nth-child(4n) {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-right: 30px;
 }
 
@@ -126,10 +125,8 @@ img {
 }
 
 .pictures li img {
-  display: inline-block;
   height: 282px;
   width: 255px;
-  margin-bottom: -4px;
 }
 
 .pictures li:nth-child(n +4) {
@@ -137,8 +134,8 @@ img {
 }
 
 .pictures li:nth-child(4n+4){
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin-right: 0;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -170,7 +167,6 @@ h2 {
 .news li {
   display: inline-block;
   width: 350px;
-  height: 262px;
   list-style-type: none;
   margin-right: 30px;
   margin-top: 82px;
@@ -225,46 +221,25 @@ p {
   color: #6c6969;
   line-height: 26px;
 }
-
-button {
-  display: block;
-  border: none;
-  width: 160px;
-  height: 50px;
-  font-size: 14px;
-  background-color: #1abc9c;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  color: white;
-  margin-bottom: 15px;
-}
-button a{
-  text-decoration: none;
-  font-weight: 500;
-  list-style: none;
-  color: white;
-}
-button a:hover{
-  color: red;
-}
 .news{
-  margin: 0px;
+  margin: 0;
 }
 .pictures li{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 30px;
   float: left;
 }
 .pictures li:nth-child(n+5){
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
+
 .navigation li{
   margin-right: 30px;
   float: left;
 }
 .navigation li:nth-child(n+6){
-  margin-right: 0px;
+  margin-right: 0;
 }
 .text1 {
   display: inline-block;
@@ -287,5 +262,26 @@ button a:hover{
   margin: 20px auto 0;
 }
 .news a{
+  display: block;
+  border: none;
+  width: 160px;
+  height: 50px;
+  font-size: 14px;
+  background-color: #1abc9c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 52px;
   text-decoration: none;
+  border-radius: 3px;
+}
+.news a:hover{
+  color: red;
+}
+
+.pictures{
+  padding-bottom: 100px;
+}
 }
