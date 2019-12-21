@@ -300,7 +300,7 @@ width: 100%;
 /* Botton Overlay */
 
 
-.card_item{
+.finish{
   position: relative;
   width: 255px;
   height: 322px;
@@ -314,7 +314,6 @@ width: 100%;
     top: 0;
     left: 0; 
     border: 10px solid rgba(255, 255, 255, 0.4);
-    margin-bottom: 40px;
     background-clip: padding-box;
     visibility: hidden;
     opacity: 0;
