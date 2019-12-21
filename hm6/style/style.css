@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .logo{
+      font-family: "Monserrat", sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #95e1d3;
+  }
+  .nav{
+      list-style: none;
+      width: 490px;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+  }
+  .nav li a{
+      display: inline-block;
+      vertical-align: middle;
+      font-family: "Monserrat", sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #95e1d3;
+  }
+  nav{
+      display: flex;
+  }
+  .nav li a:hover{
+      content: "";
+      color: red;
+      padding-bottom: 3px;
+      border-bottom: 10px; color: red;
+  }
+  .nav li{
+      transition: 0,2s linear;
+  }
+
+  /* Section service */
+  .title3::first-letter{
+      text-transform: uppercase;
+  }
+  .title3{
+      display: block;
+      font-family: "Kaushan Script";
+      font-size: 24px;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      font-weight: 400;
+      text-transform: lowercase;
+      margin-bottom: 10px;
+
+  }
+  .title2{
+      display: block;
+      font-family: "Monserrat", sans-serif;
+      font-size: 30px;
+      color: rgb(51, 51, 51);
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    /* service */
+    
