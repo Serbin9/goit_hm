@@ -32,7 +32,7 @@ input[type="checkbox"].visually-hidden,
 body {
   font-size: 14px;
   font-family: "Open Sans", "Arials", sans-serif;
-  color: #555252;
+
 }
 .container {
   width: 1110px;
@@ -204,7 +204,6 @@ width: 100%;
   width: 820px;
 }
 .cn-slider{
-  height: 104px;
   width: 770px;
   position: absolute;
   top: 45%;
@@ -236,9 +235,6 @@ width: 100%;
 }
 .card_name{
   display: inline-block;
-  width: 200px;
-  height: 40px;
-  background-color: rgb(50, 50, 50);
   padding-left: 9px;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
@@ -250,24 +246,26 @@ width: 100%;
 }
 
 .price {
-  background-color: rgb(50, 50, 50);
-  opacity: 0.65;
-  width: 55px;
-  height: 40px;
+  display: inline-block;
   text-align: center;
   float: right;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: white;
   font-size: 18px;
-  text-decoration: none;
+  color: #FFFFFF;
   line-height: 40px;
 }
-.card_item:hover .card_name{
-  background-color: #1abc9c;
+.card-info .price{
+  display: inline-block;
+  width: 55px;
+  background-color: #FFFFFF;
+  opacity: 0.4391;
 }
-.card_item:hover .price{
+span{
+  color: brown;
+}
+.card_item:hover .card-info{
   background-color: #1abc9c;
 }
 /* FOOTER */
@@ -293,7 +291,6 @@ width: 100%;
 .product_name{
   display: inline-block;
   width: 255px;
-  height: 42px;
 }
 
 /* Overline */
@@ -302,10 +299,6 @@ width: 100%;
 
 .finish{
   position: relative;
-  width: 255px;
-  height: 322px;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255);
-  opacity: 0,27;
 }
   .overlay{
     position: absolute;
@@ -437,4 +430,12 @@ opacity: 1
 header{
   margin-top: 36px;
   margin-bottom: 35px;
+}
+.card li{
+  width: 255px;
+}
+.card-info{
+  width: 255;
+  height: 40px;
+  background-color: rgb(50, 50, 50);
 }
