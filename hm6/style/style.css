@@ -244,7 +244,10 @@ html {
     display: flex;
     margin: 11px 0px;
   }
-  
+  .network:hover {
+    background-color: #95e1d3;
+    cursor: pointer;}
+
   ::placeholder {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -255,4 +258,110 @@ html {
     text-transform: capitalize;
     padding-left: 10px;
   }
+  /* Effects */
+.inform-product:first-child{
+  background-image: url(../img/png/imag1.png);
+  background-repeat: no-repeat;
+  background-position: 5% 0;
+  margin-bottom: 98px;
+}
+.design{
+  background-image: url(../img/png/imag2.png);
+  background-repeat: no-repeat;
+  background-position: 5% 0;
+  margin-bottom: 98px;
+}
+.creativity{
+  background-image: url(../img/png/imag3.png);
+  background-repeat: no-repeat;
+  background-position: 5% 0 ;
+  margin-bottom: 98px;
+}
+.seo{
+  background-image: url(../img/png/imag4.png);
+background-repeat: no-repeat;
+background-position: 5% 0 ;
+margin-bottom: 98px;
+
+}
+.internet{
+background-image: url(../img/png/imag5.png);
+background-repeat: no-repeat;
+background-position: 5% 0;
+margin-bottom: 98px;
+}
+.digital{
+background-image: url(../img/png/IMAGE6.png);
+background-repeat: no-repeat;
+background-position: 5% 0;
+margin-bottom: 98px;
+}
+.team_foto{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9));
+  opacity: 0;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.overlay-wrapper {
+  position: relative;
+}
+
+.team-item:hover .overlay {
+  opacity: 1;
+  transform: translate(-12px, -12px);
+  box-shadow: 12px 12px 0 #95e1d3;
+  cursor: pointer;
+}
+
+.social-network{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.network_social{
+  border: none;
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  margin-right: 1px;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.network_social:hover {
+  background-color: #95e1d3;
+}
+
+
+}
+.fecebook{
+  background-image: url(../img/png/facebook.png);
+}
+
+
+
+
+
+
   
+}
