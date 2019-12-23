@@ -139,7 +139,7 @@ nav {
   color: rgb(153, 153, 153);
 }
 
-.inform-product li:nth-child(-n + 3) {
+.inform-product li:nth-child(-n + 6) {
   margin-bottom: 94px;
 }
 
@@ -208,7 +208,7 @@ nav {
   border-top: 1px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .copyright {
@@ -253,43 +253,60 @@ nav {
   background-color: #95e1d3;
   cursor: pointer;
 }
+.text-foter{
+     font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    display: flex;
+  
+  }
+  .title3 span{
+    display: block;
+  }
+  .title2
+  {
+    margin-top: 18px;
+  }
+  .team2{
+    display: block;
+  }
 
 /* Effects */
-.icon {
+.card {
   display: block;
   height: 32px;
   background-repeat: no-repeat;
-  background-position: 5% 0;
   margin-bottom: 98px;
 }
 
 .photography {
   background-image: url(../img/png/imag1.png);
-
+  background-repeat: no-repeat;
 }
 
 .design {
   background-image: url(../img/png/imag2.png);
-
+  background-repeat: no-repeat;
 }
 
 .creativity {
   background-image: url(../img/png/imag3.png);
+  background-repeat: no-repeat;
 }
 
 .seo {
   background-image: url(../img/png/imag4.png);
-
+  background-repeat: no-repeat;
 }
 
 .internet {
   background-image: url(../img/png/imag5.png);
-
+  background-repeat: no-repeat;
 }
 
 .digital {
   background-image: url(../img/png/IMAGE6.png);
-
+  background-repeat: no-repeat;
 }
 
 .team_foto {
@@ -311,27 +328,30 @@ nav {
       rgba(252, 227, 138, 0.9));
   opacity: 0;
   visibility: hidden;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
 }
 
 .overlay-wrapper {
   position: relative;
 }
 
-.team-item:hover .overlay-wrapper {
+.team-item:hover .overlay{
   opacity: 1;
   visibility: visible;
   transform: translate(-12px, -12px);
   box-shadow: 12px 12px 0 #95e1d3;
   cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
 }
-.team-item:hover .overlay{
+
+.team-item:hover .team_foto{
   opacity: 1;
   visibility: visible;
-  transform: translate(0px, 0px);
-  box-shadow: 0px 0px 0 #95e1d3;
+  transform: translate(-12px, -12px);
+  box-shadow: 12px 12px 0 #95e1d3;
   cursor: pointer;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
 }
 
 .social-network {
