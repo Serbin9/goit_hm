@@ -247,20 +247,24 @@ width: 100%;
 
 .price {
   display: inline-block;
+  position: absolute;
   text-align: center;
-  float: right;
+  right: 0;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 18px;
   color: #FFFFFF;
   line-height: 40px;
+  z-index: 100;
 }
 .card-info .price{
   display: inline-block;
   width: 55px;
-  background-color: #FFFFFF;
-  opacity: 0.4391;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.card-info{
+  position: relative;
 }
 span{
   color: brown;
