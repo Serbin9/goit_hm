@@ -150,9 +150,6 @@ html {
 
 
   
-.team{
-  margin-top: 90px;
-}
 
 .team2::after{
   content: " ";
@@ -240,40 +237,34 @@ html {
   }
 
    /* Effects */
-.inform-product:nth-child(1){
-    background-image: url(../img/png/imag1.png);
+   .icon{
+     display: block;
+     height: 32px;
     background-repeat: no-repeat;
     background-position: 5% 0;
     margin-bottom: 98px;
+   }
+.photography{
+    background-image: url(../img/png/imag1.png);
+    
   }
 .design{
   background-image: url(../img/png/imag2.png);
-  background-repeat: no-repeat;
-  background-position: 5% 0;
-  margin-bottom: 98px;
+  
 }
 .creativity{
   background-image: url(../img/png/imag3.png);
-  background-repeat: no-repeat;
-  background-position: 5% 0 ;
-  margin-bottom: 98px;
-}
+ }
 .seo{
   background-image: url(../img/png/imag4.png);
-background-repeat: no-repeat;
-background-position: 5% 0 ;
 
 }
 .internet{
 background-image: url(../img/png/imag5.png);
-background-repeat: no-repeat;
-background-position: 5% 0;
 
 }
 .digital{
 background-image: url(../img/png/IMAGE6.png);
-background-repeat: no-repeat;
-background-position: 5% 0;
 
 }
 .team_foto{
