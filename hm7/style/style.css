@@ -149,8 +149,6 @@
     margin-bottom: 18px;
   }
   .inform-product{
-
-    
     font-size: 14px;
       font-family: "Roboto Slab";
       color: rgb(119, 119, 119);
@@ -211,17 +209,13 @@
   font-style: italic;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 75px;
 }
-.contact-us{
-  display: block;
-}
+
 .form-contact{
   display: flex;
-  
 }
-.container-contact-us{
-  margin: 0 auto;
-}
+
 .input{
   display: flex;
   flex-direction: column;
@@ -281,6 +275,12 @@ button{
 .servic_product{
   margin-bottom: 120px;
 }
+.textarea{
+  margin: 0 auto;
+}
+.textmasage{
+  width: 100%;
+}
 .title-contact{
   padding-top: 100px;
   margin-bottom: 18px;
@@ -289,6 +289,21 @@ input:not(:last-child){
   margin-bottom: 30px;
 }
 .textmesseg::placeholder{
-  padding-left: 8px;
-  padding-top: 8px;
-}
+  padding-left: 20px;
+  padding-top: 20px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+input::placeholder{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
