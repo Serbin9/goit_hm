@@ -43,7 +43,15 @@
        url('../style/loved-by-the-king-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../style/loved-by-the-king-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../style/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../style/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *,
 *::before,
 *::after {
@@ -106,7 +114,7 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
   color:#222222;
   text-transform: uppercase;
   text-align: center;
@@ -144,7 +152,7 @@
 
     
     font-size: 14px;
-      font-family: "RobotoSlab";
+      font-family: "Roboto Slab";
       color: rgb(119, 119, 119);
       line-height: 1.2;
       text-align: center;
@@ -154,7 +162,7 @@
   display:block;
   width: 70px;
   height: 70px;
-  border: 3px solid orange;
+  border: 3px solid rgb(254, 209, 54);
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -264,8 +272,8 @@ button{
     text-align: center;
     font-size: 18px;
     border-radius: 3px;
-    background-color: orange;
-    border: 1px solid orange;
+    background-color: rgb(254, 209, 54);
+    border: 1px solid rgb(254, 209, 54);
     cursor: pointer;
     padding: 20px 2px;
     margin: 0 auto; 
@@ -279,4 +287,8 @@ button{
 }
 input:not(:last-child){
   margin-bottom: 30px;
+}
+.textmesseg::placeholder{
+  padding-left: 8px;
+  padding-top: 8px;
 }
