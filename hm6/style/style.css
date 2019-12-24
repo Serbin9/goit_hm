@@ -91,8 +91,6 @@ nav {
   color: #333333;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 7px;
-  margin-bottom: 20px;
 }
 
 .title3:first-letter {
@@ -137,10 +135,6 @@ nav {
   font-size: 15px;
   line-height: 24px;
   color: rgb(153, 153, 153);
-}
-
-.inform-product li:nth-child(-n + 6) {
-  margin-bottom: 94px;
 }
 
 .inform-product {
@@ -202,64 +196,6 @@ nav {
   text-align: center;
 }
 
-/* footer */
-
-.foot {
-  border-top: 1px solid #e5e5e5;
-  display: flex;
-  justify-content: space-between;
-  align-items: left;
-}
-
-.copyright {
-  font-family: "Monserrat", sans-serif;
-  font-size: 14px;
-  color: #333333;
-}
-
-.developer {
-  font-family: "Monserrat", sans-serif;
-  font-size: 14px;
-  color: #f38181;
-  cursor: pointer;
-}
-
-.email-input {
-  height: 40px;
-  width: 230px;
-  border: 1px solid #e7e7e7;
-  border-right: none;
-}
-
-.subscribe-btn {
-  font-family: "Monserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  height: 40px;
-  width: 150px;
-  color: #fff;
-  background-color: #95e1d3;
-  border: none;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.email-form {
-  display: flex;
-  margin: 11px 0px;
-}
-
-.network:hover {
-  background-color: #95e1d3;
-  cursor: pointer;
-}
-.text-foter{
-     font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(51, 51, 51);
-    display: flex;
-  
-  }
   .title3 span{
     display: block;
   }
@@ -396,12 +332,11 @@ nav {
 }
 
 .team-list {
-  margin-bottom: 86px;
+  padding-bottom: 85px;
 }
 
 .text-team {
   display: block;
-
   width: 980px;
   font-family: "Roboto";
   font-size: 15px;
@@ -411,4 +346,54 @@ nav {
   font-weight: 400;
   margin-bottom: 88px;
   margin-left: 180px;
+}
+
+/* footer */
+
+.footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-family:"Montserrat", sans-serif;
+  color: #333333;
+  font-weight: 500;
+}
+
+.footer-link {
+  color:  #f38181;}
+
+.input-box {
+  display: flex;
+}
+.input-text {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-weight: 300;
+  font-style: italic;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+  padding: 12px;
+ 
+}
+.input-text::placeholder {
+  color: #cccccc;
+}
+
+
+.input-box-btn {
+  font-family: "Montserrat", bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  background-color: #95e1d3;
+  font-size: 14px;
+  padding: 15px 33px;
+  cursor: pointer;
 }
