@@ -185,10 +185,10 @@
 }
 .contact-us{
   padding-bottom: 70px;
-  background-image: url(../img/map.png);
-  background-size: cover;
+  background-image: url(../img_2/Map\ Image.png);
+  background-color: rgb(34, 34, 34);
   background-repeat: no-repeat;
-  width: 100%;
+  background-position: right;
 
 }
 .title-contact{
@@ -295,7 +295,7 @@ input:not(:last-child){
   padding-left: 20px;
   padding-top: 20px;
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     color: rgb(187, 187, 187);
     font-weight: bold;
     line-height: 1.2;
@@ -303,9 +303,15 @@ input:not(:last-child){
   
 input::placeholder{
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     color: rgb(187, 187, 187);
     font-weight: bold;
     text-transform: uppercase;
+    line-height: 1.2;
+  }
+  textarea{
+    font-size: 14px;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(0, 0, 0);
     line-height: 1.2;
   }
