@@ -230,7 +230,7 @@ input {
   padding-left: 20px;
   font-family: "Montserrat";
     font-weight: 400;
-    text-transform: uppercase;
+    
 }
 form{
   padding-bottom: 30px;
@@ -251,7 +251,7 @@ textarea{
   border: 1px solid #cccccc;
   border-radius: 2px;
   resize: none;
-  padding: 2px 2px;
+  padding: 10px 20px;
   outline: none;
 }
 .forms1{
@@ -298,7 +298,6 @@ input:not(:last-child){
     font-family: "Montserrat";
     color: rgb(187, 187, 187);
     font-weight: bold;
-    text-transform: uppercase;
     line-height: 1.2;
   }
   
