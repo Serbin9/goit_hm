@@ -228,6 +228,9 @@ input {
   border-radius: 4px;
   outline: none;
   padding-left: 20px;
+  font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
 }
 form{
   padding-bottom: 30px;
