@@ -110,11 +110,8 @@ header {
   text-align: center;
   outline: none;
   font-weight: bold;
-    
+  border: 2px transparent;
   }
-  
-
-}
 
 button:hover,
 button:focus {
@@ -141,7 +138,7 @@ button:focus {
 
 
 .promo-subtitle {
-  width: 290px;
+  width: 300px;
   margin: 0 auto 16px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -376,7 +373,6 @@ h4 {
   .partners_item.three {
       order: 2;
   }
-
   .partners_item.four {
       order: 4;
   }
