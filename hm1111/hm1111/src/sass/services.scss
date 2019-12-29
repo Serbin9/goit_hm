@@ -1,0 +1,193 @@
+
+.section-team {
+    padding-bottom: 82px
+}
+.section-text {
+    width: 944px;
+    margin: 0 auto 92px;
+    font-family: "Roboto", regular;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+}
+
+
+
+.section-team__text {
+  margin: auto;
+  width: 980px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #999999;
+  line-height: 24px;
+  margin-bottom: 92px;
+}
+
+.our-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-item {
+  width: 380px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.team-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.team-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.profession {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #999999;
+  line-height: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.main {
+  margin-bottom: 82px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(rgba(243, 129, 129, 0.9)),
+    to(rgba(252, 227, 138, 0.9))
+  );
+  background: -o-linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9)
+  );
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9)
+  );
+  -webkit-box-shadow: 12px 12px #95e1d3;
+          box-shadow: 12px 12px #95e1d3;
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  -o-transition-property: opacity, transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+img{
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.Rectangle_14 {
+  background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+}
+
+.overlay-icon-facebook-svg,
+.overlay-icon-twitter-svg,
+.overlay-icon-pinterest-svg,
+.overlay-icon-instagram-svg{
+fill: rgb(243, 129, 129);
+}
+.overlay-icon:hover .overlay-icon-facebook-svg{
+fill: white;
+}
+.overlay-icon:hover .overlay-icon-twitter-svg{
+fill: white;
+}
+.overlay-icon:hover .overlay-icon-pinterest-svg{
+fill: white;
+}
+.overlay-icon:hover .overlay-icon-instagram-svg{
+fill: white;
+}
+.team-name{
+margin-top: 30px;
+
+}
+.overlay-wrapper {
+  position: relative;
+}
+
+.team-item:hover img{
+  -webkit-transform: translate(-10px, -10px);
+      -ms-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+  cursor: pointer;
+}
+.team-item:hover .overlay {
+  opacity: 1;
+  -webkit-transform: translate(-10px, -10px);
+      -ms-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+  cursor: pointer;
+}
+
+.overlay-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.overlay-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  margin-right: 1px;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.overlay-icon:hover {
+    background-color: rgb(243, 129, 129);
+}
+
