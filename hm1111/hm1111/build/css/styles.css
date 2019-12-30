@@ -460,7 +460,7 @@ body {
   transform: translateY(-50%); }
 
 .menu-item__button{
- color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 
