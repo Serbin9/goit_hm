@@ -531,7 +531,8 @@ body {
   text-align: center;
  
 }
-
+.services__title-1::first-letter {
+  text-transform: uppercase; }
   
  .services__title{
   display: block;
