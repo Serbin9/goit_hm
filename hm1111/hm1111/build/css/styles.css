@@ -523,6 +523,17 @@ body {
   width: 1200px;
   margin: 0 auto; }
 
+
+  
+ .services__title{
+  display: block;
+  margin-top: 36px;
+  margin-bottom: 22px;
+  font-family: "Kaushan Script", regular;
+  font-size: 24px;
+  color: #333333;
+  text-align: center; }
+    
 .services__title-1{
   font-size: 24px;
   font-family: "KaushanScript";
@@ -533,16 +544,6 @@ body {
 }
 .services__title-1::first-letter {
   text-transform: uppercase; }
-  
- .services__title{
-  display: block;
-  margin-top: 36px;
-  margin-bottom: 22px;
-  font-family: "Kaushan Script", regular;
-  font-size: 24px;
-  color: #333333;
-  text-align: center; }
-
 .services__title {
   font-family: "Montserrat", regular;
   text-transform: uppercase;
