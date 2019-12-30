@@ -462,10 +462,8 @@ body {
 
 .menu-item__button{
  fill: rgb(255, 255, 255);
- width: 20px;
- height: 20px; 
 }
-.menu-item-svg:hover{
+.menu-item_button:hover{
       fill: #fce38a; }
 }
 
