@@ -521,6 +521,7 @@ h2 .services__title{
   color: rgb(51, 51, 51);
   line-height: 1.2;
   text-align: center;
+  text-transform: none;
 }
 
   
