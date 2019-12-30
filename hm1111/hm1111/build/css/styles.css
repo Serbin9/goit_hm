@@ -451,7 +451,7 @@ h2 .services__title{
   line-height: 1.2;
   text-align: center;
 }
-
+  
 .menu-item__button {
   background-color: transparent;
   border: none;
@@ -515,7 +515,7 @@ h2 .services__title{
   width: 1200px;
   margin: 0 auto; }
 
-.services__title-1 {
+h2 .services__title-1 {
   display: block;
   margin-top: 36px;
   margin-bottom: 22px;
