@@ -463,18 +463,14 @@ body {
 .menu-item__button{
  fill: rgb(255, 255, 255);
 }
-.menu-item_button:hover{
-      fill: #fce38a; }
-}
 .header__menu-item-svg{
   fill: white;
     width: 20px;
     height: 20px; 
 }
  .header__menu-item-svg:hover {
-      fill: #fbe389; 
+      fill: #fce38a; 
 }
-
 
 .page-header__btn {
   display: block;
