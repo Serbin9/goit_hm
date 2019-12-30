@@ -1,7 +1,4 @@
 
-.section-team {
-    padding-bottom: 82px
-}
 .section-text {
     width: 944px;
     margin: 0 auto 92px;
@@ -24,15 +21,16 @@ h2 span{
 
 
 .section-team__text {
-  margin: auto;
-  width: 980px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #999999;
+  margin: 0 auto;
+  width: 946px;
+  text-align: center;
   line-height: 24px;
-  margin-bottom: 92px;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  font-weight: 400; 
+  margin-bottom: 90px;
 }
 
 .our-team {
