@@ -461,7 +461,12 @@ body {
   transform: translateY(-50%); }
 
 .menu-item__button{
- color: rgb(255, 255, 255);
+ fill: rgb(255, 255, 255);
+ width: 20px;
+ height: 20px; 
+}
+.menu-item-svg:hover{
+      fill: #fce38a; }
 }
 
 
