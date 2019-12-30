@@ -9,7 +9,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # build artifacts
-build/
+#build/
 
 # Runtime data
 pids
@@ -35,12 +35,12 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+# # Compiled binary addons (http://nodejs.org/api/addons.html)
+# build/Release
 
-# Dependency directories
-node_modules/
-jspm_packages/
+# # Dependency directories
+# node_modules/
+# jspm_packages/
 
 # Typescript v1 declaration files
 typings/

@@ -59,7 +59,19 @@
   
   
   }
-  
+
+.header__menu-item-svg {
+      fill: white;
+      width: 20px;
+      height: 20px;
+    }
+
+ .header__menu-item-svg:hover {
+        fill: #fce38a; 
+      }
+  .menu-item__button{
+    border: none;
+  }
   .menu-item__link {
       font-size: 14px;
       text-decoration: none;
@@ -68,7 +80,20 @@
       text-align: center;
       color: #fff;
   }
-  
+  .header__menu-item-svg{
+    border: none;
+  }
+  h2{
+      font-size: 30px;
+      font-family: "Montserrat";
+      color: rgb(51, 51, 51);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.2;
+      text-align: center;
+      
+    }
+    
   .menu-item__link::after {
       display: block;
       content: "";
