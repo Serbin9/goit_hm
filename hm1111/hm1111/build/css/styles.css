@@ -466,6 +466,14 @@ body {
 .menu-item_button:hover{
       fill: #fce38a; }
 }
+.header__menu-item-svg{
+  fill: white;
+    width: 20px;
+    height: 20px; 
+}
+ .header__menu-item-svg:hover {
+      fill: #fbe389; 
+}
 
 
 .page-header__btn {
