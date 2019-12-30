@@ -457,7 +457,9 @@ body {
   display: block;
   text-transform: lowercase;
   font-weight: 400; }
-  
+
+.services__title-1::first-letter {
+  text-transform: uppercase{
 .menu-item__button {
   background-color: transparent;
   border: none;
